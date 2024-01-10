@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --white: #fff;
+  --textcolor: #363940;
+  --neutralcolor: #95a1bb;
+  --linkcolor: #6e38f7;
+  --font: "Rubik", sans-serif;
+  --link_font: 500 12px/20px var(--font);
+  --title_font: 500 36px/43px var(--font);
+  --textfont: 400 16px/22px var(--font);
+  --dwsc2font: 400 14px/22px var(--font);
+}
+.container a {
+  text-decoration: none;
+}
+.text {
+  color: var(--textcolor);
+}
+.lite {
+  color: var(--neutralcolor);
+}
+.container {
+  max-width: 934px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.top {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font: var(--title_font);
+}
+.desc {
+  margin-top: 20px;
+  width: 396px;
+  text-align: center;
+  font: var(--textfont);
+}
+/*  */
+/*  */
+.boxs {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+.boxsbody {
+  display: flex;
+  gap: 50px;
+}
+.circle {
+  width: 260px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #e1e5ee;
+  border-radius: 50%;
+}
+.per {
+  font: var(--title_font);
+}
+.circdesc {
+  width: 178px;
+  text-align: center;
+  font: var(--textfont);
+}
+.path1 {
+  background: url("Path.svg") center;
+  background-size: 100% 100%;
+}
+.path2 {
+  background: url("Path\ \(2\).svg") no-repeat right top;
+}
+.path3 {
+  background: url("Path\ \(3\).svg") no-repeat;
+  background-position: 99%;
+}

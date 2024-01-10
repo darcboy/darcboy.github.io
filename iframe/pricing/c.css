@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --white: #fff;
+  --primarycolor: #6e38f7;
+  --textdark: #363940;
+  --textlite: #95a1bb;
+  --font: "Rubik", sans-serif;
+  --title_font: 500 36px/43px var(--font);
+  --btnfont: 500 12px/20px var(--font);
+  --h1font: 500 36px/43px var(--font);
+  --boxtop: 500 18px/22px var(--font);
+  --mtextfont: 400 16px/22px var(--font);
+}
+.text {
+  color: var(--textdark);
+}
+.minitext {
+  font: var(--mtextfont);
+}
+.btn {
+  cursor: pointer;
+  width: 160px;
+  height: 36px;
+  background: transparent;
+  font: var(--btnfont);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+.container {
+  width: 943px;
+  margin: 0 auto;
+}
+.top {
+  width: 100%;
+  height: auto;
+}
+.topbox {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.toptitle {
+  font: var(--title_font);
+}
+.desc {
+  margin-top: 20px;
+  color: var(--textlite);
+}
+
+/*  */
+/*  */
+
+.boxs {
+  width: 100%;
+}
+.inboxs {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.box {
+  width: 220px;
+  height: 347px;
+  border-radius: 4px;
+  border: 1px solid var(--Neutral-2, #e1e5ee);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transition: all 0.3s;
+}
+.box:hover {
+  border: 1px solid var(--primarycolor);
+}
+.boxtop {
+  margin-top: 30px;
+  color: var(--textdark);
+  font: var(--boxtop);
+}
+.doll {
+  display: flex;
+  margin-top: 30px;
+  color: var(--textdark);
+}
+.doll1 {
+  font: var(--boxtop);
+}
+.bbtext {
+  margin-top: 20px;
+  font: var(--mtextfont);
+}
+.boxbtn2 {
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primarycolor);
+  color: var(--primarycolor);
+  letter-spacing: 2px;
+}
+.boxbtn1 {
+  margin-top: 20px;
+  border-radius: 4px;
+  border: 1px solid var(--primarycolor);
+  color: var(--white);
+  background-color: var(--primarycolor);
+  letter-spacing: 2px;
+}

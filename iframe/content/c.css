@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --textcolor: #363940;
+  --neutralcolor: #95a1bb;
+  --textlite: #fff;
+  --font: "Rubik", sans-serif;
+  --link_font: 500 12px/20px var(--font);
+  --title_font: 500 36px/43px var(--font);
+  --neutfont: 400 16px/22px var(--font);
+  --h6font: 500 18px/22px var(--font);
+}
+.dark {
+  color: var(--textcolor);
+}
+.bottomtext {
+  color: var(--neutralcolor);
+  font: var(--link_font);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+.container {
+  width: 943px;
+  margin: 0 auto;
+}
+.top {
+  width: 100%;
+}
+.topbox {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+}
+.title {
+  text-align: center;
+  font: var(--title_font);
+}
+/*  */
+/*  */
+.body {
+  width: 100%;
+  height: auto;
+}
+.box {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.leftbox {
+  width: 460px;
+  height: 300px;
+  padding: 30px;
+  background: url("Picture\ \(3\).png");
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.lefttext {
+  font: var(--h6font);
+}
+/*  */
+/*  */
+.rightboxs {
+  display: flex;
+  gap: 20px;
+}
+.rightbox {
+  width: 220px;
+  height: 231px;
+}
+.righttext {
+  margin-top: 20px;
+  font: var(--neutfont);
+}
+.lite {
+  margin-top: 10px;
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --textcolor: #363940;
+  --neutralcolor: #95a1bb;
+  --textlite: #fff;
+  --font: "Rubik", sans-serif;
+  --link_font: 500 12px/20px var(--font);
+  --title_font: 500 36px/43px var(--font);
+  --neutfont: 400 16px/22px var(--font);
+  --h6font: 500 18px/22px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+.text {
+  color: var(--textcolor);
+}
+.neutral {
+  color: var(--neutralcolor);
+  font: var(--neutfont);
+}
+a {
+  text-decoration: none;
+  font: var(--link_font);
+  letter-spacing: 2px;
+}
+.container {
+  width: 943px;
+  margin: 0 auto;
+}
+/* top start */
+.toptext {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1.title {
+  font: var(--title_font);
+}
+.topdesc {
+  margin-top: 20px;
+  width: 396px;
+  text-align: center;
+}
+/* top end */
+/* boxs start */
+.inboxs {
+  margin-top: 50px;
+  display: flex;
+  gap: 35px;
+}
+.box {
+  width: 205px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.h6 {
+  font: var(--h6font);
+}
+.para {
+  margin-top: 15px;
+}
+.link {
+  margin-top: 20px;
+}
