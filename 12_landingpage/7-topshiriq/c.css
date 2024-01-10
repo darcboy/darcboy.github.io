@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.helpbtn {
+  width: 170px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.services_box {
+  display: flex;
+  gap: 30px;
+}
+.services_box h1 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.services_box p {
+  width: 368px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.services_box .btns {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  align-items: center;
+}
+.services_box .btns button {
+  border-radius: 30px 30px 0px 0px;
+  border: none;
+}
+.services_box .btns a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.top {
+  width: 100%;
+  height: 840px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/Rectangle\ 252.png") no-repeat;
+  background-size: 100% 100%;
+}
+.top .container {
+  width: 1900px;
+  height: 840px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.top .container .top_title {
+  width: 100%;
+  padding: 0 0 0 352px;
+}
+.top .container .services_box {
+  width: 880px;
+  height: 459px;
+  border-radius: 0px 30px 0px 0px;
+  background: #4d6bb9;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 82px 54px 0 352px;
+}
+.top .container .services_box h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+}
+.top .container .services_box p {
+  color: #fff;
+}
+.top .container .services_box .btns button {
+  background: #efd063;
+}
+.top .container .services_box .btns a {
+  color: #fff;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.three_boxs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.three_boxs .container {
+  width: 1900px;
+  height: 1086px;
+  background: url("img/Union\ \(2\).png") no-repeat;
+  background-size: 1200px 442px;
+  background-position: center;
+}
+.three_boxs .container .lorem {
+  transform: translate(930px, -230px);
+  box-shadow: 0px 4px 50px 0px rgba(77, 107, 185, 0.15);
+  width: 622px;
+  height: 464px;
+  background-color: #ffffff;
+  justify-content: flex-start;
+  padding: 100px 0 0 74px;
+}
+.three_boxs .container .about {
+  transform: translate(270px, -330px);
+  height: auto;
+  background: none;
+  width: 502px;
+  justify-content: flex-start;
+  padding: 100px 0 0 74px;
+}
+.three_boxs .container .bottom_box {
+  width: 622px;
+  height: 403px;
+  position: absolute;
+  bottom: 80px;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 50px 0px rgba(77, 107, 185, 0.15);
+  padding: 50px 50px 0 50px;
+  text-align: center;
+  left: calc(50% - 622px / 2);
+}
+.three_boxs .container .bottom_box p {
+  width: 522px;
+}
+.three_boxs .container .services_box {
+  flex-wrap: wrap;
+  align-items: flex-end;
+  border-radius: 30px;
+}
+.three_boxs .container .services_box h1 {
+  color: #4d6bb9;
+}
+.three_boxs .container .services_box .btns button {
+  background-color: #4d6bb9;
+  color: #fff;
+}
+.three_boxs .container .services_box .btns a {
+  color: #4d6bb9;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.services {
+  width: 100%;
+  position: relative;
+}
+.services::before {
+  content: "";
+  width: 100%;
+  height: 221px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #4d6bb9;
+  z-index: -1;
+}
+.services .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 0 54px 0;
+}
+.services .container .top_title {
+  width: 1325px;
+  text-align: left;
+}
+.services .container .top_title h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.services .container .groups {
+  z-index: 1984;
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.services .container .groups .mimigrounp {
+  width: 385px;
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 9px;
+  border-radius: 30px;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0px 4px 50px 0px rgba(77, 107, 185, 0.15);
+}
+.services .container .groups .mimigrounp .text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.services .container .groups .mimigrounp h4 {
+  color: #294283;
+  font-size: 16px;
+  font-weight: 900;
+}
+.services .container .groups .mimigrounp p {
+  color: #404c6b;
+  font-size: 14px;
+  font-weight: 400;
+}
+.services .container .helpbtn {
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  background: #4d6bb9;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.contactus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.contactus .container {
+  padding: 0 0 50px 0;
+  width: 1200px;
+  height: 487px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactus .container h1 {
+  color: #4d6bb9;
+  font-size: 64px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  margin: 50px;
+}
+
+.contactus .container .box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 648px;
+}
+.contactus .container .box .inputbox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.contactus .container .box .inputbox input {
+  width: 374px;
+  height: 56px;
+  border-radius: 61px;
+  border: 3px solid #9fb1de;
+  background-color: #9fb1de;
+}
+.contactus .container .box .inputbox .submit {
+  width: 168px;
+  height: 56px;
+  background: none;
+  border: 3px solid #4d6bb9;
+}
+.contactus .container .box .contacts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.contactus .container .box .contacts .contact {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.contactus .container .box .contacts .contact p {
+  color: #4d6bb9;
+  font-size: 14px;
+  font-weight: 500;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+.bottom {
+  width: 100%;
+  height: 145px;
+  background-color: #2d3751;
+}

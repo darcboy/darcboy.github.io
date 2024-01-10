@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Iceland&family=Montserrat:wght@100&family=Open+Sans&family=Oswald:wght@200&family=Poppins&family=Reem+Kufi+Fun:wght@500&family=Vampiro+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  z-index: 11111;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redbtn {
+  width: 208px;
+  height: 46px;
+  border: none;
+  border-radius: 42px;
+  background-color: #e15252;
+  box-shadow: 0px 4px 20px 0px rgba(225, 82, 82, 0.5);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/*  */
+/* top */
+/*  */
+.top {
+  width: 100%;
+  display: flex;
+  background: url("imgs/tpobcd.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.top .container {
+  padding: 50px 0 280px 352px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 76px;
+  margin: 0 1000px 0 0;
+}
+.top .container .left_text {
+  display: flex;
+  flex-direction: column;
+  gap: 190px;
+}
+.top .container .left_text .intex_box {
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+}
+.top .container .left_text .intex_box .lorem h3 {
+  width: 525px;
+  color: red;
+  font-size: 36px;
+  font-weight: 500;
+}
+.top .container .left_text .intex_box .lorem h3 span {
+  color: #333;
+  font-size: 47px;
+  font-weight: 700;
+}
+.top .container .left_text .intex_box .lore_text {
+  width: 425px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+.top .container .left_text .intex_box button {
+  width: 160px;
+  height: 46px;
+  background-color: #e15252;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+/*  */
+/* services */
+/*  */
+.services {
+  width: 100%;
+}
+.services .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0 0 50px 0;
+}
+.services .container .top_title1 {
+  width: 698px;
+  height: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f2f2f2;
+  border-radius: 0px 0px 50px 50px;
+}
+.services .container .top_title1 h1 {
+  color: #333;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.services .container .top_title1 h5 {
+  color: #e15252;
+  font-size: 18px;
+  font-weight: 500;
+}
+.services .container .groups {
+  width: 1700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+.services .container .groups .mimigrounp {
+  width: 246px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 9px;
+}
+.services .container .groups .mimigrounp .img_minibox {
+  width: 224px;
+  height: 224px;
+  border-radius: 50%;
+  background-color: #e15252;
+  padding: 12px;
+}
+.services .container .groups .mimigrounp h4 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.services .container .groups .mimigrounp p {
+  color: #4f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+}
+/*  */
+/* bigbody */
+/*  */
+.big_body {
+  width: 100%;
+  background: url("imgs/big_bodybcd.png");
+  z-index: 1000;
+  position: relative;
+}
+/*  */
+/* aboutus */
+/*  */
+.aboutus {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e15252;
+}
+.aboutus::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("imgs/big_bodybcd.png");
+  opacity: 0.2;
+  z-index: 0;
+  position: absolute;
+}
+.aboutus .container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .top_title {
+  width: 100%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .top_title h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 700;
+}
+.container .top_title h5 {
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+.aboutus .container .box {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 1200px;
+  height: 648px;
+  background-color: #fff;
+  border-radius: 50px 50px 0px 0px;
+}
+.aboutus .container .box .textbox {
+  width: 703px;
+  padding: 139px 32px 139px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+.aboutus .container .box .textbox h2 {
+  color: #333;
+  font-size: 64px;
+  font-weight: 400;
+  font-family: "Vampiro One";
+}
+.aboutus .container .box .textbox hr {
+  width: 99px;
+  height: 3px;
+  background: #e15252;
+}
+.aboutus .container .box .textbox p {
+  width: 352px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #4f4f4f;
+}
+/*  */
+/* contactus */
+/*  */
+.contactus {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactus .container {
+  padding: 0 0 50px 0;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactus .container .box {
+  padding: 0px 110px 140px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 648px;
+  background-color: #e15252;
+  border-radius: 0px 0px 50px 50px;
+}
+.contactus .container .box .inputbox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+}
+.contactus .container .box .inputbox input {
+  width: 374px;
+  height: 56px;
+  border-radius: 61px;
+  border: 3px solid #fff;
+}
+.contactus .container .box .inputbox .submit {
+  width: 168px;
+  height: 56px;
+  background: none;
+}
+.contactus .container .box .contacts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+.contactus .container .box .contacts .contact {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.contactus .container .box .contacts .contact p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.bottom {
+  width: 100%;
+  height: 92px;
+  background-color: #c4c4c4;
+}

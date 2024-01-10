@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --white: #fff;
+  --linkcolor: #95a1bb;
+  --topcolor: #363940;
+  --font: "Rubik", sans-serif;
+  --title_font: 500 24px/28px var(--font);
+  --descfont: 400 16px/22px var(--font);
+  --linkfont: 500 12px/20px var(--font);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+}
+a.link {
+  text-decoration: none;
+}
+.icon {
+  margin: 40px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: calc(50% - 48px / 2);
+}
+.body {
+  width: 100%;
+  height: 500px;
+  background: url("Picture\ \(1\).png") no-repeat;
+  display: flex;
+  position: relative;
+}
+.lefticon {
+  left: 0;
+}
+.righticon {
+  right: 0;
+}
+.container {
+  width: 943px;
+  margin: 0 auto;
+}
+.box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.right {
+  margin-top: 100px;
+  height: auto;
+  width: 410px;
+}
+.rightimg {
+  width: 48px;
+  height: 48px;
+}
+.toph4 {
+  margin-top: 25px;
+  font: var(--title_font);
+  color: var(--topcolor);
+}
+.link {
+  margin-top: 11px;
+  font: var(--linkfont);
+  color: var(--linkcolor);
+}
+.desc {
+  margin-top: 22px;
+  font: var(--descfont);
+  color: var(--topcolor);
+}
+.drop {
+  margin-top: 50px;
+  width: 80px;
+  height: 8px;
+}
