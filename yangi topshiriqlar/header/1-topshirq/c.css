@@ -1,0 +1,28 @@
+.container {
+  max-width: 934px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+  height: auto;
+}
+.boxbody {
+  width: 100%;
+  height: 76px;
+  margin-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnleft {
+  width: 36px;
+  height: 36px;
+}
+.btnright {
+  width: 24px;
+  height: 24px;
+}

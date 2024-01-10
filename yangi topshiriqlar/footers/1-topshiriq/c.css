@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --white: #fff;
+  --textcolor: #363940;
+  --neutralcolor: #95a1bb;
+  --linkcolor: #6e38f7;
+  --font: "Rubik", sans-serif;
+  --top_font: 500 18px/22px var(--font);
+  --title_font: 500 22px/28px var(--font);
+  --dwscfont: 400 16px/22px var(--font);
+  --linkfont: 500 12px/20px var(--font);
+}
+.container a {
+  text-decoration: none;
+}
+.text {
+  color: var(--textcolor);
+}
+.lite {
+  color: var(--neutralcolor);
+}
+.container {
+  max-width: 934px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fooder {
+  width: 100%;
+  height: auto;
+}
+.boxbody {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 100px;
+}
+.titlebox {
+  width: auto;
+  height: auto;
+}
+.title {
+  font: var(--title_font);
+  color: var(--linkcolor);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.top {
+  font: var(--top_font);
+}
+/*  */
+/*  */
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.desc {
+  font: var(--dwscfont);
+  display: flex;
+  align-items: center;
+}
+.desc a {
+  margin-left: 5px;
+  font: var(--linkfont);
+  color: var(--linkcolor);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+/*  */
+/*  */
+.desctext {
+  width: 220px;
+}
+.input {
+  height: 46px;
+  border-radius: 4px;
+}
+.email {
+  width: 142px;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid var(--neutralcolor);
+  font: var(--dwscfont);
+}
+.submit {
+  width: 68px;
+  background: transparent;
+  border: 1px solid var(--linkcolor);
+  color: var(--linkcolor);
+  font: var(--linkfont);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}

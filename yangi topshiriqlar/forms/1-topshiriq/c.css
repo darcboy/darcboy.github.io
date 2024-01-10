@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+:root {
+  --white: #fff;
+  --textcolor: #363940;
+  --neutralcolor: #95a1bb;
+  --linkcolor: #6e38f7;
+  --font: "Rubik", sans-serif;
+  --link_font: 500 12px/20px var(--font);
+  --title_font: 500 36px/43px var(--font);
+  --textfont: 400 16px/22px var(--font);
+  --dwsc2font: 400 14px/22px var(--font);
+}
+.container a {
+  text-decoration: none;
+}
+.text {
+  color: var(--textcolor);
+}
+.lite {
+  color: var(--neutralcolor);
+}
+.input {
+  height: 46px;
+  border-radius: 4px;
+}
+.container {
+  max-width: 934px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  width: 100%;
+  height: auto;
+}
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin-top: 100px;
+  text-align: center;
+  font: var(--title_font);
+}
+.desc {
+  margin-top: 20px;
+  width: 410px;
+  text-align: center;
+  font: var(--textfont);
+}
+/*  */
+/*  */
+.bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  width: 241px;
+  padding: 12px;
+  margin-right: 10px;
+  border: 1px solid var(--neutralcolor);
+}
+.submit {
+  width: 133px;
+  background: var(--Primary, #6e38f7);
+  border: none;
+  color: var(--white);
+  font: var(--link_font);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
