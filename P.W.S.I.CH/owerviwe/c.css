@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+:root {
+  --dark: #363940;
+  --lite: #837b7b;
+  --white: #fff;
+  --font: "Poppins", sans-serif;
+  --link_font: 500 15px / normal var(--font);
+  --title_font: 800 48px/68px var(--font);
+  --descfont: 400 16px/180% var(--font);
+  --btn_font: 500 20px / normal var(--font);
+  --numfont: 275 115px/100% var(--font);
+}
+iframe.iframe {
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+.lite {
+  color: var(--lite);
+}
+.dark {
+  color: var(--dark);
+}
+.text {
+  text-transform: uppercase;
+}
+.container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+/*  */
+/*  */
+/*  */
+.over {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.body {
+  width: 100%;
+  height: auto;
+}
+.title .text {
+  font: var(--title_font);
+  margin: 80px 0 54px 0;
+  color: var(--dark);
+}
+.boxs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px 20px;
+}
+.box {
+  padding: 14px 0 14px 28px;
+  width: 576px;
+  height: 163px;
+  background-color: #f5f5f5;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+}
+.box::before {
+  content: "";
+  width: 20.721px;
+  height: 89.675px;
+  background: url("../img/Vector\ 1.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 89.675px / 2);
+}
+.desc {
+  font: var(--descfont);
+}
+.desc span {
+  color: #edca48;
+}
+.number {
+  color: #e6e6e6;
+  font: var(--numfont);
+  margin: 0 25px;
+}

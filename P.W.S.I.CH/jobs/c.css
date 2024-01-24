@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+:root {
+  --dark: #323137;
+  --lite: #837b7b;
+  --white: #fff;
+  --font: "Poppins", sans-serif;
+  --link_font: 500 15px / normal var(--font);
+  --title_font: 800 48px/68px var(--font);
+  --descfont: 400 16px/180% var(--font);
+  --btn_font: 500 20px/160% var(--font);
+  --numfont: 275 115px/100% var(--font);
+}
+iframe.iframe {
+  width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+}
+.lite {
+  color: var(--lite);
+}
+.dark {
+  color: var(--dark);
+}
+.text {
+  text-transform: uppercase;
+}
+.container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+.title h1 {
+  font: var(--title_font);
+  margin: 80px 0 54px 0;
+  color: var(--dark);
+}
+.btns {
+  width: auto;
+  height: auto;
+  display: flex;
+  gap: 6px;
+}
+.btn {
+  cursor: pointer;
+  width: 236px;
+  height: 51px;
+  border: none;
+  font: var(--btn_font);
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: #edca48;
+}
+.left {
+  border-radius: 100px 0px 0px 100px;
+}
+.right {
+  border-radius: 0px 100px 100px 0px;
+}
+/*  */
+/*  */
+/*  */
+.box {
+  margin-top: 20px;
+  padding: 50px;
+  width: 1200px;
+  height: 637px;
+  border-radius: 16px;
+  background: var(--gradient, #fbf2f6);
+  overflow: hidden;
+  position: relative;
+}
+.box::after {
+  position: absolute;
+  content: "";
+  width: 535px;
+  height: 600px;
+  right: 0;
+  bottom: -10px;
+  background: url("../img/puzzle-dynamic-gradient\ 1.png");
+}
+.box_title {
+  font: 700 50px/120% var(--font);
+  color: var(--dark);
+}
+.input_box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.input {
+  display: flex;
+  gap: 15px;
+}
+.input input {
+  cursor: pointer;
+  accent-color: rgb(50, 151, 50);
+  width: 23px;
+}
+label {
+  font: var(--btn_font);
+}
