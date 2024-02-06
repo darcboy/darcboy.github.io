@@ -472,8 +472,13 @@ a {
 }
 
 @media screen and (max-width: 426px) {
-  .log {
-    display: none !important;
+  .navcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .log {
+      display: none !important;
+    }
   }
   .bodybox {
     .title {
@@ -551,6 +556,18 @@ a {
         img {
           scale: 0.5;
         }
+      }
+    }
+  }
+  .right_news {
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    .link {
+      scale: 0.5;
+      &:hover {
+        scale: 0.6;
       }
     }
   }
