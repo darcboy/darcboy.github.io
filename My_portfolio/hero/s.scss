@@ -472,6 +472,9 @@ a {
 }
 
 @media screen and (max-width: 426px) {
+  .log {
+    display: none !important;
+  }
   .bodybox {
     .title {
       width: 95%;
